@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+}
+
+body .flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body header {
+  height: 140px;
+  width: 1000px;
+  margin: 0 auto;
+  background-color: aquamarine;
+}
+
+body header .logo {
+  margin-top: 30px;
+  height: 80px;
+}
+
+body header .sns {
+  height: 40px;
+}
+
+body header ul {
+  padding: 0;
+  width: 320px;
+  margin-left: auto;
+  margin-top: 50px;
+}
+
+body header ul li {
+  text-align: right;
+  list-style: none;
+  padding: 0 0 0 40px;
+}
