@@ -1,12 +1,12 @@
 body{
     margin: 0;
     .flex{display: flex;}
-    .right{ }
+    .space-evenly {justify-content: space-evenly;}
     header{
        height: 140px;
        width: 1000px;
        margin: 0 auto;
-       background-color: aquamarine;
+       background-color: white;
        .logo{margin-top: 30px;  height: 80px;}
        .sns{height: 40px}
        ul{
@@ -22,4 +22,36 @@ body{
 
        } 
     }
-}
+    nav{
+        height: 60px;
+        width: 1000px;
+        margin: 0 auto;
+        ul{
+            width: 1000px;
+            margin: 0;
+            padding: 0;
+            li{
+                margin: 0 auto;
+                list-style: none;
+                padding: 0;
+                border-bottom: none;
+                text-align: center;
+                width: 100%;
+                border-left: 1px solid #E5EBF2;
+                &:last-child {
+                    border-right: 1px solid #E5EBF2;}
+                }
+             }
+ 
+        } 
+    }
+    .mainvisual{
+        height: 620px;
+        width: 100%;
+        background-image: url("./images/pic_main.png");
+        background-size: cover;
+        .txt_main{
+            width: 550px;
+        }
+    }
+

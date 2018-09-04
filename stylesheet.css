@@ -8,11 +8,17 @@ body .flex {
   display: flex;
 }
 
+body .space-evenly {
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
 body header {
   height: 140px;
   width: 1000px;
   margin: 0 auto;
-  background-color: aquamarine;
+  background-color: white;
 }
 
 body header .logo {
@@ -35,4 +41,41 @@ body header ul li {
   text-align: right;
   list-style: none;
   padding: 0 0 0 40px;
+}
+
+body nav {
+  height: 60px;
+  width: 1000px;
+  margin: 0 auto;
+}
+
+body nav ul {
+  width: 1000px;
+  margin: 0;
+  padding: 0;
+}
+
+body nav ul li {
+  margin: 0 auto;
+  list-style: none;
+  padding: 0;
+  border-bottom: none;
+  text-align: center;
+  width: 100%;
+  border-left: 1px solid #E5EBF2;
+}
+
+body nav ul li:last-child {
+  border-right: 1px solid #E5EBF2;
+}
+
+.mainvisual {
+  height: 620px;
+  width: 100%;
+  background-image: url("./images/pic_main.png");
+  background-size: cover;
+}
+
+.mainvisual .txt_main {
+  width: 550px;
 }
