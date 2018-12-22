@@ -1,24 +1,12 @@
-# Bokurahatensai
+## Overview
+'bokurahatensai' website
 
-Overview
-ぼくらはてんさいのホームページ
+## Get Started
+### Clone Repository
+```
+git clone git@github.com:shiori-yasutani/bokurahatensai.git
+```
 
-## Description
-
-## Demo
-
-## VS. 
-
-## Requirement
-
-## Usage
-
-## Install
-
-## Contribution
-
-## Licence
-
-[MIT](https://github.com/tcnksm/tool/blob/master/LICENCE)
-
-## Author
+### About Files
+- index.html
+- stylesheet.css
