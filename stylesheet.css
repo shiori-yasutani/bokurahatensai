@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  /* navigation */
 }
 
 body .flex {
@@ -59,16 +60,20 @@ body nav ul li {
   margin: 0 auto;
   list-style: none;
   padding: 0;
-  border-bottom: none;
   text-align: center;
   width: 100%;
   border-left: 1px solid #E5EBF2;
+}
+
+body nav ul li a {
+  border-bottom: none;
 }
 
 body nav ul li:last-child {
   border-right: 1px solid #E5EBF2;
 }
 
+/* mainvisual */
 .mainvisual {
   height: 620px;
   width: 100%;
@@ -76,6 +81,21 @@ body nav ul li:last-child {
   background-size: cover;
 }
 
-.mainvisual .txt_main {
+.mainvisual .txtmain {
   width: 550px;
+  height: 620px;
+  margin: auto;
+}
+
+.mainvisual img {
+  width: 550px;
+  margin: 125px auto 0;
+}
+
+/* news */
+.news {
+  width: 100%;
+  height: 480px;
+  background-image: url("./images/bg_news.png");
+  background-size: cover;
 }
