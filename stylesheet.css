@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  /* navigation */
 }
 
 body .flex {
@@ -8,11 +9,17 @@ body .flex {
   display: flex;
 }
 
+body .space-evenly {
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
 body header {
   height: 140px;
   width: 1000px;
   margin: 0 auto;
-  background-color: aquamarine;
+  background-color: white;
 }
 
 body header .logo {
@@ -35,4 +42,60 @@ body header ul li {
   text-align: right;
   list-style: none;
   padding: 0 0 0 40px;
+}
+
+body nav {
+  height: 60px;
+  width: 1000px;
+  margin: 0 auto;
+}
+
+body nav ul {
+  width: 1000px;
+  margin: 0;
+  padding: 0;
+}
+
+body nav ul li {
+  margin: 0 auto;
+  list-style: none;
+  padding: 0;
+  text-align: center;
+  width: 100%;
+  border-left: 1px solid #E5EBF2;
+}
+
+body nav ul li a {
+  border-bottom: none;
+}
+
+body nav ul li:last-child {
+  border-right: 1px solid #E5EBF2;
+}
+
+/* mainvisual */
+.mainvisual {
+  height: 620px;
+  width: 100%;
+  background-image: url("./images/pic_main.png");
+  background-size: cover;
+}
+
+.mainvisual .txtmain {
+  width: 550px;
+  height: 620px;
+  margin: auto;
+}
+
+.mainvisual img {
+  width: 550px;
+  margin: 125px auto 0;
+}
+
+/* news */
+.news {
+  width: 100%;
+  height: 480px;
+  background-image: url("./images/bg_news.png");
+  background-size: cover;
 }
