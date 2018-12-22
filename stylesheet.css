@@ -147,37 +147,98 @@ body .contenttitle ul{
   padding: 0;
 }
 
-body .event .contenttitle img{
+.event .contenttitle img{
   width: 50px;
   height: 50px;
   margin-bottom: 20px;
   margin-right: 20px;
 } 
-body .event .contenttitle p{
+.event .contenttitle p{
   color: #d5c43c;
 } 
-body .event .contenttitle .flex{
+.event .contenttitle .flex{
   border-bottom:#d5c43c solid 1px;
   margin-bottom: 50px;
   margin-top: 60px;
 }
 
-body .event .poster{
-  width: 297px;
- 
+.event .event-description{
+  display: flex;
+  width: 100%;
+  margin-bottom: 50px;
 }
-body .event{
+.event .event-description .eventvisual{
+  flex: 3;
+}
+.event .event-description .event-text{
+  flex: 7;
+}
+.event .poster{
+  width: 100%;
+}
+.event{
   width: 1000px;
   margin: 0 auto;
 }
-body .event .eventtitle{
+.event .eventtitle{
   color: #d5c43c;
   font-weight: bold;
   font-size: 24px;
+  margin-left: 50px;
 }
-body .event .eventdetail{
+.event .eventdetail{
   color: #d5c43c;
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 50px;
+  margin-left: 50px;
+}
+
+.gallery {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  background-image: url("./images/bg_gallery.png");
+  background-size: cover;
+}
+body .gallery .contenttitle img{
+  width: 50px;
+  height: 50px;
+  margin-right:20px; 
+}
+
+body .gallery .contenttitle p{
+  color: white;
+} 
+
+body .gallery .contenttitle .flex{
+  padding-top:50px; 
+  border-bottom: white solid 1px;
+  margin-bottom: 50px;
+}
+
+.gallery .gallery_pic{
+  width: 1000px;
+  margin: 0 auto 50px;
+
+}
+
+.gallery .gallery_pic img{
+  width: 250px;
+}
+
+.gallery .gallery_pic p{
+  color: white;
   font-weight: bold;
   font-size: 18px;
 }
 
+.gallery .gallery_first, .gallery .gallery_second{
+  display: flex;
+  width: 1000px;
+  margin:0 auto;
+}
+
+.gallery .gallery_first .gallery_pic, .gallery .gallery_second .gallery_pic{
+  flex: 1;
+}
