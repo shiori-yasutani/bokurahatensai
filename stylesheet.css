@@ -201,7 +201,7 @@ body .contenttitle ul{
   background-image: url("./images/bg_gallery.png");
   background-size: cover;
 }
-body .gallery .contenttitle img{
+.gallery .contenttitle img{
   width: 50px;
   height: 50px;
   margin-right:20px; 
@@ -241,4 +241,42 @@ body .gallery .contenttitle .flex{
 
 .gallery .gallery_first .gallery_pic, .gallery .gallery_second .gallery_pic{
   flex: 1;
+}
+
+.about .about_description{
+  display: flex;
+  width: 1000px;
+  margin:0 auto;
+}
+
+.about .about_detail{
+  width: 250px;
+  flex: 1;
+}
+
+.about .about_detail img {
+  width: 200px;
+}
+
+.about .about_detail p{
+  width: 200px;
+  color: #d5c43c;
+  font-size: 18px;
+}
+
+body .about .contenttitle .flex{
+  border-bottom:#d5c43c solid 1px;
+  margin-bottom: 50px;
+  margin-top: 60px;
+}
+
+.about .contenttitle p{
+  color: #d5c43c;
+} 
+
+
+.about .contenttitle img{
+  width: 50px;
+  height: 50px;
+  margin-right:20px; 
 }
