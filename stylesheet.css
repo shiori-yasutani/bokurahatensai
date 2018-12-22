@@ -70,8 +70,8 @@ body nav ul li {
 body nav ul li a {
   text-decoration: none;
   font-weight: bold;
-  font-size: 18
-  px;
+  font-size: 18px;
+  color: black;
 }
 
 body nav ul li a .english {
@@ -108,13 +108,76 @@ body .news {
   background-image: url("./images/bg_news.png");
   background-size: cover;
 }
+body .news img{
+  width: 50px;
+  height: 50px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+} 
 
-body .newstext{
+body .contenttitle{
+  width: 1000px;
+  margin: -30px auto;
+
+}
+body .news .contenttitle .flex{
+  padding-top:50px; 
+  border-bottom: white solid 1px;
+  margin-bottom: 50px;
+}
+
+body .contenttitle p {
+  font-size: 36px;
+  font-weight: bold;
+  margin: 0 0 20px 0;
+}
+
+body .news .contenttitle p {
+color: white;
+}
+
+body .contenttitle li{
+  list-style: none;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+body .contenttitle ul{
+  padding: 0;
+}
+
+body .event .contenttitle img{
+  width: 50px;
+  height: 50px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+} 
+body .event .contenttitle p{
+  color: #d5c43c;
+} 
+body .event .contenttitle .flex{
+  border-bottom:#d5c43c solid 1px;
+  margin-bottom: 50px;
+  margin-top: 60px;
+}
+
+body .event .poster{
+  width: 297px;
+ 
+}
+body .event{
   width: 1000px;
   margin: 0 auto;
 }
-
-body .newstext p {
+body .event .eventtitle{
+  color: #d5c43c;
+  font-weight: bold;
   font-size: 24px;
-  color: #E5EBF2;
 }
+body .event .eventdetail{
+  color: #d5c43c;
+  font-weight: bold;
+  font-size: 18px;
+}
+
