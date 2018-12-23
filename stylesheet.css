@@ -345,3 +345,17 @@ body .gallery .contenttitle .flex{
   width: 1000px;
   margin: 0 auto;
 }
+
+.inquiry input.name_input{
+  width: 100%;
+}
+.inquiry input.ma_input{
+  width: 100%;
+}
+.inquiry textarea.inquiry_input{
+  width: 100%;
+}
+
+.inquiry p{
+  margin-bottom: 0;
+}
