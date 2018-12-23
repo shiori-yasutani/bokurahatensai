@@ -156,5 +156,32 @@
           <a href="https://www.wantedly.com/users/56739270" target="_blank">保谷しおり</a>
         </div>
       </div>
+
+      <!--inquiry-->
+      <div class="inquiry">
+        <div class="contenttitle">
+          <div class="flex">
+            <img src="./images/icon_inquiry.png" alt="">
+            <p>お問い合わせ</p>
+          </div>
+        </div>
+        <div>
+          <form class="h-adr">
+            <div class="required">
+              <p>お名前 <span class="required-mark">必須</span></p>
+            </div>
+              <input type="text" name="contact_company" class="validate[required] form-input text-m">
+            <div class="required">
+              <p>メールアドレス <span class="required-mark">必須</span></p>
+            </div>
+            <input type="text"  name="contact_in_charge" class="validate[required] form-input text-m">
+            <div class="required">
+              <p>お問い合わせ内容 <span class="required-mark">必須</span></p>
+            </div>
+            <textarea name="contact_message" class="validate[required] form-input text-l" cols="30" rows="10"></textarea>
+            <input type="hidden" name="ticket" >
+            <button class="btn-cv">送信する</button>
+          </form>
+        </div>
     </body>
 </html>
